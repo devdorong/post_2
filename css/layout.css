@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* 선택사항 탭키 누를시 포커스에 검은테두리 보기싫으면 적용 */
+  outline-style: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+html {
+  min-width: 640px;
+  overflow-x: hidden;
+}
+
+.wrap {
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
