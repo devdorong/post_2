@@ -1,0 +1,16 @@
+.cock {
+    background-color: red;
+}
+
+.cock_wrap {
+  max-width: 1024px;
+  height: 524px;
+  display: flex;
+  justify-content: center;
+  padding: 0 56px;
+  margin: 0 auto;
+}
+.cock_top {
+}
+.cock_bottom {
+}
