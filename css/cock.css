@@ -78,12 +78,39 @@
   align-items: center;
 }
 .cock_top_left {
-  padding: 5px;
   background-color: #e7ebfe;
+  color: #4375f4;
+  padding: 5px;
   font-size: 11px;
   font-weight: 500;
-  color: #4375f4;
   border-radius: 4px;
+}
+.cock_purple {
+  
+  padding: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #5f26cd;
+  background-color: #f2eefb;
+}
+.cock_red {
+  
+  padding: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fe6d6d;
+  background-color: #fff3f3;
+}
+.cock_gray {
+  
+  padding: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #777;
+  background-color: #f2f2f2;
 }
 .cock_top_right {
   display: inline-flex;
