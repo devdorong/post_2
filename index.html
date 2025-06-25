@@ -24,9 +24,12 @@
     <script src="js/banner_under.js"></script>
     <link rel="stylesheet" href="css/cock.css" />
     <script src="js/cock.js"></script>
+    <link rel="stylesheet" href="css/now.css" />
+    <script src="js/now.js"></script>
     <link rel="stylesheet" href="css/footer.css" />
     <script src="js/footer.js"></script>
   </head>
+
   <body>
     <div class="wrap">
       <header class="header">
@@ -63,7 +66,7 @@
         </div>
       </header>
       <main class="main">
-        <div class="banner">
+        <section class="banner">
           <div class="layout">
             <div class="banner_wrap">
               <div class="swiper sw_banner">
@@ -81,8 +84,8 @@
               </button>
             </div>
           </div>
-        </div>
-        <div class="banner_under">
+        </section>
+        <section class="banner_under">
           <ul>
             <li>
               <button class="banner_bt">
@@ -121,9 +124,9 @@
               </button>
             </li>
           </ul>
-        </div>
+        </section>
         <section class="cock">
-          <div class="layout">
+          <div class="cock_wrap">
             <p class="cock_top">슥삭이<span> 콕 </span>집은 공고</p>
             <div class="cock_bottom">
               <ul class="cock_list">
@@ -133,7 +136,32 @@
           </div>
         </section>
         <div class="recently"></div>
-        <div class="justnow"></div>
+        <section class="now">
+          <div class="now_wrap">
+            <p class="now_top"><span>방금</span> 게시된 공고만 찾고 있다면?</p>
+            <div class="now_bottom">
+              <ul class="now_list">
+                <li class="now_item">
+                  <a href="#">
+                    <div class="now_image">
+                      <img src="images/n1.png" alt="이미지1" />
+                    </div>
+                    <div class="now_title">
+                      <div class="now_title_top">
+                        <span><span class="now_top_blue">공모전</span></span>
+                        <!-- <span class="now_top_ad">AD</span> -->
+                      </div>
+                      <div class="now_title_middle">
+                        [LX판토스] NEXT ESG 미래를 설계하는 아이디어 챌린지
+                      </div>
+                      <div class="now_title_bottom">D-4</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
         <div class="app"></div>
       </main>
       <footer class="footer"></footer>

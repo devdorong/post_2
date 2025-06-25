@@ -29,12 +29,13 @@ window.addEventListener("load", function () {
       id: 4,
       up: false,
       option: [
-        { 스타일: "red", 텍스트: "인턴쉽" },
+        { 스타일: "red", 텍스트: "인턴십" },
         { 스타일: "gray", 텍스트: "경기 성남시 분당구" },
       ],
       title: "[카카오뱅크] 콘텐츠 제작 어시스턴트 (체험형 인턴)",
       day: "D-7",
     },
+    
   ];
 
   const cockPos = document.querySelector(".cock_list");
