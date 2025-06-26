@@ -1,0 +1,60 @@
+.footer {
+  position: relative;
+}
+.footer_wrap {
+  display: flex;
+  margin: 0 auto;
+  padding: 56px 18px;
+  max-width: 1024px;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer_top {
+width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.footer_top_left {
+}
+.fl_top {
+}
+.fl_bottom {
+}
+.flb_top {
+}
+.flb_bottom {
+}
+.flbb_t {
+}
+.flbb_t span {
+}
+.flbb_b {
+}
+.footer_top_right {
+}
+.ftr_left {
+}
+.ftrl_top {
+}
+.ftrl_bottom {
+}
+.ftrl_bottom ul {
+}
+.ftrl_bottom ul li {
+}
+.ftrl_bottom ul li a {
+}
+
+.ftr_right {
+}
+.ftrr_top {
+}
+.ftrr_bottom {
+}
+.ftrr_bottom ul {
+}
+.ftrr_bottom ul li {
+}
+.ftrr_bottom ul li a {
+}

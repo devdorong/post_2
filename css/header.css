@@ -47,7 +47,18 @@
   display: flex;
 }
 .header_left_menu ul li {
+  position: relative;
   padding: 0 16px;
+}
+.header_left_menu ul li span {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #ff5247;
 }
 .header_right {
   display: flex;

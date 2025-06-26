@@ -1,5 +1,6 @@
 .now {
-  border: 1px solid #eee;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   position: relative;
 }
 
@@ -19,7 +20,7 @@
 
   position: relative;
   width: 100%;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 700;
   color: #1c1c1c;
   line-height: 1.5;
