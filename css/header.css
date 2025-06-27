@@ -50,6 +50,10 @@
   position: relative;
   padding: 0 16px;
 }
+.header_left_menu ul li a {
+  font-weight: 500;
+  color: #1c1c1c;
+}
 .header_left_menu ul li span {
   position: absolute;
   right: 10px;
@@ -62,7 +66,7 @@
 }
 .header_right {
   display: flex;
-  gap: 20px;
+  gap: 16px;
 }
 .header_right_link {
 }
