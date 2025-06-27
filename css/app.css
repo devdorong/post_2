@@ -15,6 +15,7 @@
   display: flex;
   padding: 40px;
   justify-content: space-between;
+  gap: 56px;
 }
 .app_image {
 }
