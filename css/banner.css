@@ -1,8 +1,5 @@
 .banner {
-  
   padding-top: 112px;
-}
-.layout {
 }
 .banner_wrap {
   margin: 0 auto;
@@ -73,4 +70,42 @@
   border-radius: 24px;
   transform: translateX(calc(320px + 50%)) translateY(-75%);
   cursor: pointer;
+}
+
+@media all and (max-width: 1280px) {
+}
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 960px) {
+}
+@media all and (max-width: 768px) {
+  .banner {
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .banner_slide_prev {
+    display: none;
+  }
+
+  .banner_slide_next {
+    display: none;
+  }
+  .banner_pagnation {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media all and (max-width: 760px) {
+}
+@media all and (max-width: 600px) {
+}
+@media all and (min-width: 769px) {
+  .banner_slide_prev {
+    display: block;
+  }
+
+  .banner_slide_next {
+    display: block;
+  }
 }
