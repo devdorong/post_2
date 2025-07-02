@@ -46,22 +46,29 @@
   padding: 0;
   list-style: none;
 }
+
 .cock_item {
+  max-width: 242px;
+  padding: 8px 8px 12px;
+  border-radius: 20px;
+}
+
+.cock_item a {
   display: flex;
   flex-direction: column;
-
-  padding: 8px 9px 12px;
-  width: 242px;
-  height: 351px;
-  border-radius: 20px;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
 }
 .cock_image {
   overflow: hidden;
+  object-fit: cover;
   position: relative;
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 10px;
 }
+  
 .cock_image::after {
   position: absolute;
   top: 0;
@@ -77,9 +84,12 @@
   transition: transform 0.3s ease;
   border-radius: 10px;
   object-fit: cover;
+  display: block;
 }
 .cock_title {
   padding-top: 12px;
+  display: flex;
+  flex-direction: column;
 }
 .cock_title_top {
   display: flex;
@@ -138,16 +148,16 @@
   /* white-space: nowrap; */
   display: -webkit-box;
   padding-top: 4px;
-  padding-bottom: 9px;
   overflow: hidden;
   font-size: 14px;
   font-weight: 500;
   line-height: 140%;
   color: #444;
-  word-break: break-word;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 2; /* 2줄 이상일땐 숫자를 변경 */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 줄 수 제한 */
   -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .cock_up {
   display: inline-flex;
@@ -163,6 +173,12 @@
   box-sizing: border-box;
 }
 .cock_title_bottom {
+  padding-top: 9px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 줄 수 제한 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 17px;
   font-weight: 600;
   color: #1c1c1c;
@@ -173,4 +189,47 @@
 }
 .cock_item_focus .cock_image img {
   transform: scale(1.1);
+}
+
+@media all and (max-width: 1280px) {
+}
+@media all and (max-width: 1040px) {
+  .cock_item {
+    width: 21.5385vw;
+  }
+
+  .cock_item a {
+    height: 33.75vw;
+  }
+}
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 960px) {
+}
+@media all and (max-width: 768px) {
+  .cock_wrap {
+    padding: 32px 16px;
+    gap: 12px;
+  }
+  .cock_top {
+    font-size: 18px;
+  }
+  .cock_item {
+    max-width: 356px;
+    min-height: 270px;
+    width: calc(50% - 4px);
+  }
+
+  .cock_item a {
+    height: 60.5469vw;
+  }
+  .cock_image {
+    min-width: 134px;
+    min-height: 134px;
+  }
+}
+
+@media all and (max-width: 700px) {
+}
+@media all and (max-width: 600px) {
 }

@@ -1,5 +1,4 @@
 window.addEventListener("load", function () {
-  
   const cockApiData = [
     {
       id: 1,
@@ -35,18 +34,15 @@ window.addEventListener("load", function () {
       title: "[카카오뱅크] 콘텐츠 제작 어시스턴트 (체험형 인턴)",
       day: "D-7",
     },
-    
   ];
 
   const cockPos = document.querySelector(".cock_list");
   let html = ``;
 
-  
   for (let i = 0; i < cockApiData.length; i++) {
     let leftBadge = "";
     let rightBadge = "";
 
-    
     for (let j = 0; j < cockApiData[i].option.length; j++) {
       if (cockApiData[i].option[j].스타일 === "ad") {
         rightBadge += `<span class="cock_top_${cockApiData[i].option[j].스타일}">${cockApiData[i].option[j].텍스트}</span>`;
@@ -59,7 +55,9 @@ window.addEventListener("load", function () {
       <li class="cock_item">
         <a href="#">
           <div class="cock_image">
-            <img src="images/c${cockApiData[i].id}.png" alt="이미지${cockApiData[i].id}" />
+            <img src="images/c${cockApiData[i].id}.png" alt="이미지${
+      cockApiData[i].id
+    }" />
           </div>
           <div class="cock_title">
             <div class="cock_title_top">
@@ -69,6 +67,7 @@ window.addEventListener("load", function () {
             <div class="cock_title_middle">
               ${cockApiData[i].up ? `<span class="cock_up">UP</span>` : ""}
               ${cockApiData[i].title}
+              
             </div>
             <div class="cock_title_bottom">${cockApiData[i].day}</div>
           </div>

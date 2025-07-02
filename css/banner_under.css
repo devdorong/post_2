@@ -4,13 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .banner_under ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   gap: 64px;
 }
 .banner_under ul li {
@@ -24,14 +23,14 @@
 .bt_image {
   width: 80px;
   height: 80px;
-  border-radius: 28px;
-  background-color: rgb(247 247 247);
 }
 .bt_image img {
   width: 100%;
   height: 100%;
 
   padding: 16px;
+  background-color: rgb(247 247 247);
+  border-radius: 28px;
 }
 .bt_text {
   margin-top: 11px;
@@ -55,4 +54,46 @@
 }
 .bt_focus {
   background-color: rgb(240, 241, 246) !important;
+}
+
+@media all and (max-width: 1280px) {
+}
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 960px) {
+}
+@media all and (max-width: 768px) {
+  .banner_under {
+    margin: 11px 0 20px;
+  }
+  .banner_under ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bt_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 56px;
+    height: 56px;
+  }
+  .bt_image img {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border-radius: 18px;
+  }
+  .bt_text {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 760px) {
+}
+@media all and (max-width: 600px) {
+}
+@media all and (min-width: 769px) {
 }
