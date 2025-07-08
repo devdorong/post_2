@@ -80,7 +80,7 @@
 }
 @media all and (max-width: 768px) {
   .banner {
-    padding-top: 8px;
+    padding-top: 56px;
     padding-bottom: 6px;
   }
   .banner_slide_prev {

@@ -70,8 +70,8 @@
   justify-content: center;
   gap: 8px;
   align-items: center;
-  max-width: 236px;
-  width: 20.6923vw;
+  max-width: 240px;
+  width: 21vw;
 }
 .apple_image {
   display: flex;
@@ -88,6 +88,9 @@
   font-weight: 500;
 }
 .app_bottom_play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .app_bottom_play a {
   border: 1px solid #dee2e6;
@@ -97,8 +100,8 @@
   justify-content: center;
   gap: 8px;
   align-items: center;
-  max-width: 250px;
-  width: 21.5385vw;
+  max-width: 240px;
+  width: 21vw;
 }
 .play_image {
   display: flex;
@@ -123,32 +126,80 @@
 }
 @media all and (max-width: 960px) {
   .app_text_bottom {
-    flex-direction: column; /* 버튼을 위아래로 배치 */
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .app_bottom_apple a,
+  .app_bottom_play a {
+    max-width: 400px;
     width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  .app_wrap {
+    padding: 0;
+  }
+  .app_item {
+    background-color: #f0f1f6;
+    padding: 32px 24px;
+  }
+  .app_image {
+  }
+  .app_image img {
+    width: 110px;
+    height: 74px;
+  }
+  .app_top_main {
+    font-size: 16px;
+  }
+  .app_top_sub {
+    font-size: 14px;
+  }
+  .app_item {
+    background-color: #f0f1f6;
+    flex-direction: row; /* ✅ row 유지 */
+    align-items: center;
     gap: 16px;
+  }
+
+  .app_image img {
+    width: 110px;
+    height: 74px;
+  }
+
+  .app_text {
+    gap: 24px;
+  }
+
+  .app_top_main {
+    font-size: 16px;
+  }
+
+  .app_top_sub {
+    font-size: 14px;
+  }
+
+  .app_text_bottom {
+    display: flex;
+    flex-direction: row; /* ✅ 버튼 가로 정렬 */
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 12px;
   }
 
   .app_bottom_apple,
   .app_bottom_play {
-    width: 100%;
-    max-width: 400px;
+    flex: 1 1 auto;
   }
 
   .app_bottom_apple a,
   .app_bottom_play a {
-    border: 1px solid #dee2e6;
-    border-radius: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    width: 100%;
-    height: 50px; /* 👈 세로 높이 고정 */
-    font-size: 16px;
+    width: 100%; /* 각 버튼이 flex 영역만큼 차지 */
+    max-width: none; /* 고정 max 제거 */
+    font-size: 14px;
+    padding: 10px;
   }
-}
-@media all and (max-width: 768px) {
 }
 @media all and (max-width: 760px) {
 }

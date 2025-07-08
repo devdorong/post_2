@@ -125,11 +125,15 @@
     padding: 0 18px;
     padding-top: 2px;
     height: 57px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
   }
   .mb_logo {
     width: 77px;
     height: 28px;
   }
+  
 }
 @media all and (max-width: 760px) {
   .layout {
