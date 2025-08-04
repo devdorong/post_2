@@ -199,6 +199,7 @@
     max-width: none; /* 고정 max 제거 */
     font-size: 14px;
     padding: 10px;
+    background-color: #fff;
   }
 }
 @media all and (max-width: 760px) {

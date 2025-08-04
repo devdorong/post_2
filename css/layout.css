@@ -21,8 +21,8 @@ html {
 }
 
 .wrap {
+  margin: 0 auto;
 }
-
 
 body {
   font-family: "Pretendard ", Pretendard, -apple-system, BlinkMacSystemFont,
